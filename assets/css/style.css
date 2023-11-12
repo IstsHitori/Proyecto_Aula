@@ -145,26 +145,14 @@ h6 {
 }
 
 #header .logo a span {
-  color: #ffc451;
+  color: red;
 }
 
 #header .logo img {
   max-height: 40px;
 }
 
-/*--------------------------------------------------------------
-#  Get Startet Button
---------------------------------------------------------------*/
-.get-started-btn {
-  color: #fff;
-  border-radius: 4px;
-  padding: 7px 25px 8px 25px;
-  white-space: nowrap;
-  transition: 0.3s;
-  font-size: 14px;
-  display: inline-block;
-  border: 2px solid #ffc451;
-}
+
 
 .get-started-btn:hover {
   background: #ffbb38;
@@ -224,7 +212,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #ffc451;
+  color: rgb(255, 39, 39);
 }
 
 .navbar .dropdown ul {
@@ -261,7 +249,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  background-color: #ffc451;
+  background-color: rgb(253, 71, 71);
 }
 
 .navbar .dropdown:hover>ul {
