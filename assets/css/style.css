@@ -397,6 +397,7 @@ h6 {
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
+  object-fit: cover;
 }
 
 #hero:before {
@@ -437,7 +438,7 @@ h6 {
 #hero .icon-box {
   padding: 30px 20px;
   transition: ease-in-out 0.3s;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.979);
   height: 100%;
   text-align: center;
 }
@@ -445,7 +446,7 @@ h6 {
 #hero .icon-box i {
   font-size: 32px;
   line-height: 1;
-  color: #ffc451;
+  color: rgb(255, 0, 0);
 }
 
 #hero .icon-box h3 {
@@ -463,11 +464,11 @@ h6 {
 }
 
 #hero .icon-box h3 a:hover {
-  color: #ffc451;
+  color: rgb(204, 204, 204);
 }
 
 #hero .icon-box:hover {
-  border-color: #ffc451;
+  border-color: red;
 }
 
 @media (min-width: 1024px) {
